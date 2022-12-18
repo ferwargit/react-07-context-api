@@ -1,8 +1,12 @@
+import Navbar from "./components/Navbar";
+import MovieList from "./components/MovieList";
+
 
 function App() {
   return (
     <div>
-        <h1>App 2:31 min</h1>
+        <Navbar />
+        <MovieList />
     </div>
   );
 }
