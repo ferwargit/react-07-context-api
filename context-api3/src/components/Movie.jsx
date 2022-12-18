@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Movie = ({ movie }) => {
-
+  console.log('Movie');
   const imgStyles = {
     height: '260px',
     objectFit: 'cover',
@@ -23,7 +23,6 @@ const Movie = ({ movie }) => {
           Favorito
         </button>
       </div>
-      <h1>Movie</h1>
     </div>
   )
 }

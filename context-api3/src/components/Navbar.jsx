@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import UserContext from "../contexts/UserContext";
 
 const Navbar = () => {
+  console.log('Navbar');
 
   // const user = null; // Cuando la sesion no esta iniciada tiene un valor null
   // y se muestra el mensaje "Bienvenid@"
